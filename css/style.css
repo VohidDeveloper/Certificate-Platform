@@ -1,8 +1,28 @@
+
+
 .headClass {
     background: url('../img/jez-timms-8muUTAmcWU4-unsplash.jpg') !important;
     background-size: cover;
     background-position: center;
     min-height: 100vh !important;
+}
+
+.welcome {
+    margin-top: 15px !important;
+}
+
+.logos {
+    margin-top: 45px !important;
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos img {
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
 }
 
 .what-left {
@@ -18,6 +38,10 @@
     background-position: center;
     background-size: cover;
     color: #000 !important;
+}
+
+.cert {
+    transition: all 0.5s ease !important;
 }
 
 .uic {
