@@ -12,6 +12,9 @@
     margin-bottom: 20px !important;
 }
 
+.fixed .container .item {
+    border: none !important;
+}
 .logos {
     margin-top: 45px !important;
     width: 200px;
