@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 .headClass {
     background: url('../img/jez-timms-8muUTAmcWU4-unsplash.jpg') !important;
