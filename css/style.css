@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+}
+
 .headClass {
-    background: url('../img/jez-timms-8muUTAmcWU4-unsplash.jpg') !important;
+    background: url('../img/sertificate-back.jpg') !important;
     background-size: cover;
-    background-position: center;
+    background-position: top center !important;
     min-height: 100vh !important;
 }
 
 .welcome {
     margin-top: 15px !important;
     margin-bottom: 20px !important;
+    color: #fcdb33 !important;
+    text-shadow: 2px 2px 4px #000000 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+    font-style: italic;
 }
 
 .fixed .container .item {
@@ -67,6 +79,18 @@ html {
     border: none !important;
 }
 
+.make {
+    margin-top: 20px !important ;
+}
+
+.texts {
+    /* color: rgb(243, 188, 21) !important;
+    text-shadow: ; */
+    color: white !important;
+  text-shadow: 2px 2px 4px #000000 !important;
+  font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+}
 
 .hidden.menu {
     display: none;
